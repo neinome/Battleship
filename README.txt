@@ -6,8 +6,8 @@ The intention of this project is to see if more realistic naval warfare breaks o
 Project Tracking: [ ] Not Started [-] In Work [x] Complete
 [x] Gather Assets
 [x] Design UI
-[-] Modify Assets For UI
-[-] Create Grids
+[x] Modify Assets For UI
+[x] Create Grids
 [x] Create Game Engine
 [x] Design Game Staging
 [x] Create Game Staging FSM
