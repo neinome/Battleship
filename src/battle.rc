@@ -1,0 +1,81 @@
+#include <windows.h>
+#include "res.h"
+
+#define IDC_STATIC -1
+
+// Battleship Icon
+BTTL_ICO ICON "../src/Resources/0_Battleship.ico"
+
+// Battleship Dressing images
+SPL_TITLE  BITMAP "../src/Resources/Spl_Title.bmp"
+SPL_INIT   BITMAP "../src/Resources/Spl_Initiate.bmp"
+SPL_JOIN   BITMAP "../src/Resources/Spl_Join.bmp"
+SPL_VICTOR BITMAP "../src/Resources/Spl_Victory.bmp"
+SPL_DEFEAT BITMAP "../src/Resources/Spl_Defeat.bmp"
+
+// Battleship Game images
+// Boards
+BLUE_PLR BITMAP "../src/Resources/Plr_Blue.bmp"
+RED__PLR BITMAP "../src/Resources/Plr_Red.bmp"
+GREN_PLR BITMAP "../src/Resources/Plr_Green.bmp"
+YLOW_PLR BITMAP "../src/Resources/Plr_Yellow.bmp"
+PRPL_PLR BITMAP "../src/Resources/Plr_Purple.bmp"
+ORNG_PLR BITMAP "../src/Resources/Plr_Orange.bmp"
+GRAY_PLR BITMAP "../src/Resources/Plr_Gray.bmp"
+LTGY_PLR BITMAP "../src/Resources/Plr_LtGray.bmp"
+
+// Attack Screens
+BLUE_ATK BITMAP "../src/Resources/Atk_Blue.bmp"
+RED__ATK BITMAP "../src/Resources/Atk_Red.bmp"
+GREN_ATK BITMAP "../src/Resources/Atk_Green.bmp"
+YLOW_ATK BITMAP "../src/Resources/Atk_Yellow.bmp"
+PRPL_ATK BITMAP "../src/Resources/Atk_Purple.bmp"
+ORNG_ATK BITMAP "../src/Resources/Atk_Orange.bmp"
+GRAY_ATK BITMAP "../src/Resources/Atk_Gray.bmp"
+LTGY_ATK BITMAP "../src/Resources/Atk_LtGray.bmp"
+
+// Ships
+CVN_SHIP ICON "../src/Resources/Shp_CVN.ico"
+BB_SHIP  ICON "../src/Resources/Shp_BB.ico"
+SSN_SHIP ICON "../src/Resources/Shp_SSN.ico"
+DDG_SHIP ICON "../src/Resources/Shp_DDG.ico"
+PC_SHIP  ICON "../src/Resources/Shp_PC.ico"
+
+// Pieces
+RED_PEG ICON "../src/Resources/Peg_Red.ico"
+WHT_PEG ICON "../src/Resources/Peg_White.ico"
+
+// Buttons
+BTN_PRESS ICON "../src/Resources/Btn_Press.ico"
+BTN_UNPRS ICON "../src/Resources/Btn_Unpress.ico"
+
+// Version Information
+1 VERSIONINFO
+FILEVERSION 0, 0, 0, 1
+PRODUCTVERSION 0, 0, 0, 0
+FILEFLAGSMASK 0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "MyPace Software\0"
+   VALUE "FileDescription", "Battleship Board Game\0"
+   VALUE "FileVersion", "0.0\0"
+   VALUE "InternalName", "Battleship\0"
+   VALUE "Copyright", "2015 MyPace Software\0"
+   VALUE "OriginalFilename", "Battleship.exe\0"
+   VALUE "ProductName", "Battleship\0"
+   VALUE "ProductVersion", "0.0\0"
+   
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+  
+ }
+}
